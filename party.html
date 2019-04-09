@@ -14,9 +14,29 @@
       for( var time = 0 ; time < question ; time = time - 1) {
           ans = question + time;
           var flag = true;
+
+
           if ( ans < 1 && flag == true){
             alert("PARTY NOW!!!");
-            alert("PARTY TIME!!!");
+
+            alert("Lets Party...");
+            var question2 = parseInt(prompt("How Long ' till the party?"));
+
+
+
+
+            for(var time2 = question2 ; time2 == question2; time2 = time2 - 1){
+
+              if (time2  < 1) {
+                alert("PARTY TIME");
+              }else {
+                alert(ans)
+              }
+            }
+
+
+
+
 
           }else{
               alert(ans);
